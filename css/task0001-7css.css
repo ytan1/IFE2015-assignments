@@ -1,0 +1,120 @@
+*{
+	font-family: 'Encode Sans Expanded', sans-serif;
+	margin:0;
+	padding:0;
+	border: 0;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+
+}
+body{
+	min-width: 980px;
+	background-color: #e2e2e2;
+	position: relative;
+	height: 1500px;
+}
+ul{
+	list-style: none;
+}
+.header{
+	width: 100%;
+	background-color:#add8e6;
+	height:80px;
+	position: relative;
+
+}
+.headwrap{
+	margin: 0 auto;
+	position: relative;
+	height: 80px;
+	width: 980px;
+}
+.mylogo{
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+}
+.nav-bar{
+	position:absolute;
+	right: 5px;
+	bottom: 5px;
+}
+.nav-option{
+	float: left;
+	margin: 0 14px;
+}
+.gitlogo{
+	position: absolute;
+	bottom: 0;
+	right: 5px;
+}
+@media (max-width: 1040px){
+	.gitlogo{
+		display: none;
+	}
+}
+/*blog content*/
+.blog-main{
+	width: 980px;
+	margin: 0 auto;
+	position: relative;
+
+}
+.blog-left{
+	position: absolute;
+	left: 0;
+	width: 780px;
+	margin-top: 20px;
+}
+.blog-right{
+	position: absolute;
+	right: 0;
+	width: 200px;
+	margin-top: 20px;
+}
+.blog-item{
+	margin-bottom: 10px;
+	display: table;
+
+}
+.blog-article{
+	float: left;
+	padding: 20px;
+	background-color: #fff;
+	height: 200px;
+}
+.blog-date{
+	float: left;
+	margin-left: -830px;
+	width: 50px;
+	margin-top: 30px;
+	background-color: #47456D;
+	height: 36px;
+	text-align: center;
+	color: #fff;
+	line-height: 36px;
+}
+.blog-theme{
+	float: left;
+	margin-left: -830px;
+	width: 50px;
+	background-color: #add8e6;
+	height: 36px;
+	margin-top: 66px;
+	text-align: center;
+	color: #fff;
+	line-height: 36px;
+}
+
+
+/*footer*/
+footer{
+	width: 100%;
+	position: absolute;
+
+	bottom: 0;
+	
+	background-color: #000;
+}
