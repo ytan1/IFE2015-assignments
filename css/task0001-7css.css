@@ -13,7 +13,7 @@ body{
 	min-width: 980px;
 	background-color: #e2e2e2;
 	position: relative;
-	height: 1500px;
+	
 }
 ul{
 	list-style: none;
@@ -60,19 +60,22 @@ ul{
 	width: 980px;
 	margin: 0 auto;
 	position: relative;
-
+	border: red 1px solid;
 }
+
 .blog-left{
 	position: absolute;
 	left: 0;
 	width: 710px;
 	margin-top: 20px;
+	border: red 1px solid;
 }
 .blog-right{
 	position: absolute;
 	right: 0;
 	width: 260px;
 	margin-top: 20px;
+	border: red 1px solid;
 }
 .blog-item{
 	margin-bottom: 10px;
@@ -207,14 +210,13 @@ ul{
 	background-color: #fff;
 	margin-top: 20px;
 	width: 260px;
-	padding:15px;
-	
+	padding: 20px 0;
 }
 .calendar{
 	width: 220px;
 	text-align: center;
 	float: none;
-	margin: 20px 0;
+	margin: 0px auto;
 	border-collapse: collapse;
 }
 .calendar tr{
@@ -223,15 +225,44 @@ ul{
 .calendar th{
 	color: #47456D;
 }
+#today{
+	background-color: #47456D;
+	color: #fff;
+}
 .blog-tags{
 	background-color: #fff;
+	margin-top: 20px;
+	padding: 10px;
+	margin-bottom: 30px;
 }
+.blog-tags-items{
+	width: 100%;
+	margin: auto;
+	margin-top: 20px;
+	color: #47456D;
+
+}
+.blog-tags-dark{
+	font-size: 24px;
+	font-weight: 800;
+}
+.blog-tags-medium{
+	font-size: 18px;
+	font-weight: 600;
+}
+.blog-tags-light{
+	font-size: 14px;
+	font-weight: 400;
+}
+.blog-tags-lighter{
+	font-size: 12px;
+	font-weight: 200;
+}
+
 /*footer*/
 footer{
-	width: 100%;
-	position: absolute;
-
-	bottom: 0;
+	
+	clear: both;
 	
 	background-color: #000;
 }
