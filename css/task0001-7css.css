@@ -270,7 +270,7 @@ footer{
 .footer-nav-wrap{
 	width: 360px;
 	margin:0 auto;
-	padding-top: 10px;
+	padding: 5px 0;
 	border: red 1px solid;
 	overflow: hidden;
 }
@@ -311,8 +311,11 @@ footer{
 }
 .footer-link-row ul{
 	line-height: 200%;
-	width: 196px
+	
 	border: #fff 1px solid;
+}
+.footer-link-row ul li:hover{
+	text-decoration: underline;
 }
 .copyright{
 	position: absolute;
