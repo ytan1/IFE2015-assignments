@@ -164,21 +164,29 @@ ul{
 	background-color: #fff;
 	padding: 20px;
 	margin-bottom: 10px;
+
 }
 .search-form{
 	height: 40px;
 	display: table;
-	
+	border: #e2e2e2 1px solid;
+}
+.search-form:hover {
+	border: #000 1px solid;
 }
 .keywords{
 	border: #999;
 	float: left;
-	width: 170px;
+	width: 168px;
 	height: 40px;
 	background-image: url(../img/search.png);
 	background-size: auto;
 	background-repeat: no-repeat;
 
+}
+
+.keywords:focus {
+	background-image: none;
 }
 .submit{
 	float: left;
@@ -259,7 +267,187 @@ ul{
 	font-size: 12px;
 	font-weight: 200;
 }
+/*gallery*/
+.gallery-main{
+	width: 980px;
+	margin: auto;
+	display: table;
+	margin-top: 20px;
+}
+.gallery-left{
+	float: left;
+	width: 710px;
+}
+.gallery-right{
+	float: right;
+	width: 260px;
+}
+.all-gallery-tabs{
+	display: inline-block;
+	border-bottom:1px solid #e2e2e2;
+	background-color: #fff;
 
+}
+.gallery-tab{
+	float: left;
+	padding: 16px;
+	border-right: 1px solid #e2e2e2;
+	border-top: 3px solid;
+	font-size: 14px;
+}
+.gallery-tab:first-child {
+	border-top-color: #92C0EF;
+}
+.gallery-tab:nth-child(2) {
+	border-top-color: #dfc6e6;
+}
+.gallery-tab:nth-child(3) {
+	border-top-color: #d2a6ff;
+}
+.gallery-tab:nth-child(4) {
+	border-top-color: #ffa98c;
+}
+.gallery-tab:nth-child(5) {
+	border-top-color: #ffe188;
+}
+.gallery-tab:first-child:hover {
+	border-top-color: #47456D;
+}
+.gallery-tab:nth-child(2):hover {
+	border-top-color: #522a5c;
+}
+.gallery-tab:nth-child(3):hover {
+	border-top-color: #5900b2;
+}
+.gallery-tab:nth-child(4):hover {
+	border-top-color: #8c2300;
+}
+.gallery-tab:nth-child(5):hover {
+	border-top-color: #d9a300;
+}
+.gallery-contents{
+	background-color: #fff;
+	display: table;
+	padding: 10px;
+	padding-right: 0;
+}
+.gallery-contents ul li{
+	float: left;
+	margin-right: 10px;
+
+	
+}
+.gallery-contents ul li div{
+	
+	display: table;
+}
+.gallery-contents ul li div ul li{
+	float: left;
+	margin-right: 0;
+	
+}
+.gallery-contents ul li div ul li:first-child{
+	
+	margin-right: 10px;
+	
+}
+.tab-logo{
+	float: left;
+	width: 28px;
+	height: 28px;
+	border-radius: 14px;
+	border: 1px solid #fff;
+	position: absolute;
+	left: 0;
+	text-align: center;
+	line-height: 28px;
+	margin: 10px;
+}
+.applications-tab{
+	background-color: #522a5c;
+	
+}
+.javascript-tab{
+	background-color: #d9a300;
+	
+}
+.function-tab{
+	background-color: #8c2300;
+	
+}
+.uicomponents-tab{
+	background-color: #5900b2;
+	
+	
+}
+.tab-common{
+	margin-bottom: 10px;
+	color: #fff;
+	padding-left: 48px;
+	position: relative;
+}
+.tab-common h2{
+	font-size: 14px; 
+	margin: 10px 0;
+}
+.tab-common p{
+	font-size: 12px;
+	margin: 10px 10px 10px 0;
+	display: block;
+	border: 1px red solid;
+}
+
+img{
+	display: block;
+}
+.gallery-ranking{
+	background-color: #fff;
+	padding: 10px;
+	display: table;
+}
+.gallery-ranking h3{
+	font-size: 12px;
+	color: #999;
+	font-weight: 400;
+	margin: 10px 0;
+	
+
+}
+.ranking-element{
+	height: 40px;
+	
+	display: table;
+}
+.ranking-number{
+	margin: 12px;
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	color: #fff;
+	background-color: #add8e6;
+	float: left;
+	text-align: center;
+	line-height: 16px;
+	font-size: 12px;
+	
+}
+.ranking-bar{
+	float: left;
+	margin: 8px 8px ;
+	border: 1px solid #add8e6;
+	height: 60%;
+	width: 100px;
+	
+}
+.ranking-percent{
+	background-color: #add8e6;
+	height: 100%;
+}
+.ranking-name{
+	
+	font-size: 10px;
+	line-height: 40px;
+}
 /*footer*/
 footer{
 	background-color: #000;
