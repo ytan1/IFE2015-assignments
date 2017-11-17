@@ -1,0 +1,235 @@
+*{
+	margin:0;
+	border:0;
+	padding:0;
+	font-family:  'Encode Sans Expanded', sans-serif;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-webkit-appearance:none;
+
+}
+body{
+	min-width: 980px;
+	background-color: #e2e2e2;
+	position: relative;
+	
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+ul{
+	list-style: none;
+}
+.header{
+	width: 100%;
+	background-color:#add8e6;
+	height:80px;
+	position: relative;
+
+}
+.headwrap{
+	margin: 0 auto;
+	position: relative;
+	height: 80px;
+	width: 980px;
+}
+.mylogo{
+	position: absolute;
+	float: left;
+	padding: 10px;
+	bottom: 0;
+}
+.nav-bar{
+	float: right;
+	padding: 5px;
+	
+	margin-top: 50px;
+	}
+.nav-option{
+	float: left;
+	margin: 0 14px;
+}
+.gitlogo{
+	float: right;
+	margin-top: -40px;
+}
+
+/*Issue1*/
+
+.content{
+	width: 980px;
+	margin: 10px auto;
+	
+}
+form{
+	outline:none;
+}
+.input{
+	padding: 2px;
+	color: #f0eded;
+	
+	outline:none;
+}
+
+.submit{
+	margin: 0 5px;
+	background-color: #fff;
+	padding: 2px 5px;
+	border-radius: 5px;
+	border: 3px solid #FFF;
+}
+.submit:hover{
+	border: 3px solid #FFD700;
+
+}
+
+
+#output{
+	margin-top: 5px;
+}
+input {-webkit-appearance: none; }
+/*Issue2*/
+input[type=checkbox]
+{
+  -webkit-appearance: checkbox;
+}
+/*Issue3*/
+.window{
+	width: 400px;
+	height: 250px;
+	position: relative;
+	border: 1px #555 solid;
+	margin-bottom: 20px;
+		box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	overflow: hidden;
+
+}
+.imgrow{
+	height: 250px;
+	width: 2800px;
+	position: absolute;
+	
+	
+
+}
+.imgrow img{
+	width: 400px;
+	height: 250px;
+	float: left;
+
+	
+}
+#Issue3Button{
+	position: absolute;
+	
+	bottom: 0;
+	left: 50%;
+	width: 70px;
+	margin-left: -35px;
+	padding: 5px;
+	
+
+
+}
+#Issue3Button ul li{
+	float: left;
+	margin: 0 2px;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	border: 1px solid #000;
+	background-color: #999;
+	cursor: pointer;
+}
+.lighted{
+	background-color: '#00f';
+}
+.issue3input{
+	margin: 10px;
+	width: 60px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	background-color: #FFF;
+	border-radius: 10px;
+
+}
+.issue3input:hover{
+	border: 2px orange solid;
+}
+/*Issue4*/
+.userInput{
+	width: 980px;
+	height: 30px;
+	background-color: #fff;
+	color: #000;
+	font-size: 14px;
+	line-height: 30px;
+	margin: 20px 0 0;
+	padding: 8px;
+	outline: none;
+
+}
+.userInput:focus{
+	outline: 2px #add8e6 solid;
+}
+ul{
+	list-style: none;
+}
+
+.hintList{
+	width: 980px;
+	height: 30px;
+	background-color: #fff;
+	color: #000;
+	font-size: 10px;
+	line-height: 30px;
+	margin: 0;
+	padding: 8px;
+}
+.onhover{
+	background-color: #999;
+	cursor: default;
+	color:#fff;
+	width: 980px;
+	height: 30px;
+	font-size: 10px;
+	line-height: 30px;
+	margin: 0;
+	padding: 8px;
+}
+/*Issue 5*/
+
+
+.bigContainer{
+	float: left;
+	height: 350px;
+	width: 150px;
+	background-color: #fff;
+	margin: 20px 100px 100px 0;
+	position: relative;
+}
+
+.small{
+	width: 150px;
+	height: 50px;
+	background-color: #b2f1f4;
+	border: solid 1px #e3f8f9;
+	font-size: 20px;
+	color: #e3f8f9;
+	line-height: 50px;
+	text-align: center;
+	position: relative;
+	z-index : 1;
+	cursor: move;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+.opacity{
+	opacity: 0.5;
+}
