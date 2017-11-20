@@ -1,0 +1,26 @@
+*{
+	font-family: 'Encode Sans Expanded', sans-serif;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+ul{
+	list-style: none;
+}
+header{
+	height: 50px;
+	background-color: #888;
+	padding: 10px;
+	line-height: 30px;
+	color: #555;
+}
+h1{
+	font-size: 20px;
+}
