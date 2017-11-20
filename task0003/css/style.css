@@ -7,6 +7,10 @@
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	}
+html,body{
+	height: 100%;
+	width: 100%;
+}
 a{
 	text-decoration: none;
 	color: #fff;
@@ -16,11 +20,36 @@ ul{
 }
 header{
 	height: 50px;
-	background-color: #888;
+	background-color: #efefef;
 	padding: 10px;
 	line-height: 30px;
-	color: #555;
+	color: #888;
 }
 h1{
 	font-size: 20px;
+}
+.content{
+	position: absolute;
+	top: 50px;
+	bottom: 0;
+}
+.type-wrap{
+	float: left;
+	width: 200px;
+	height: 100%;
+	border-left: solid 1px #888;
+	background-color: #f9f9f9;
+}
+.task-wrap{
+	float: left;
+	width: 200px;
+	border-left: solid 1px #888;
+	background-color: #f9f9f9;
+	height: 100%;
+}
+.editor{
+	float: left;
+	min-width: 400px;
+	background-color: #f9f9f9;
+	height: 100%;
 }
