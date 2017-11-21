@@ -20,6 +20,7 @@ ul{
 }
 header{
 	height: 50px;
+	width: 100%;
 	background-color: #efefef;
 	padding: 10px;
 	line-height: 30px;
@@ -32,24 +33,52 @@ h1{
 	position: absolute;
 	top: 50px;
 	bottom: 0;
+	width: 100%;
+
 }
 .type-wrap{
-	float: left;
-	width: 200px;
+	position: absolute;
+	left: 0;
+	width: 300px;
 	height: 100%;
-	border-left: solid 1px #888;
+	border-right: solid 1px #999;
 	background-color: #f9f9f9;
 }
 .task-wrap{
-	float: left;
-	width: 200px;
-	border-left: solid 1px #888;
+	position: absolute;
+	left: 300px;
+	width: 300px;
+	border-right: solid 1px #999;
 	background-color: #f9f9f9;
 	height: 100%;
 }
 .editor{
-	float: left;
-	min-width: 400px;
+	position: absolute;
+	left: 600px;
+	right: 0px;
 	background-color: #f9f9f9;
 	height: 100%;
+}
+@media screen and (max-width: 450px){
+	.type-wrap{
+		position: relative;
+		left: 0;
+		margin: 0 auto;
+		width: 300px;
+		height: 400px;
+	}
+	.task-wrap{
+		position: relative;
+		left: 0;
+		margin: 0 auto;
+		width: 300px;
+		height: 400px;
+	}
+	.editor{
+		position: relative;
+		left: 0;
+		margin: 0 auto;
+		width: 450px;
+		height: 500px;
+	}
 }
