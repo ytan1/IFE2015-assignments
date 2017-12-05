@@ -14,18 +14,18 @@
 	<div class="content clearfix">
 		<div class="type-wrap">
 			<div class="type-list"></div>
-			<div id="add-type" class="add">+</div>
+			<div id="add-type" class="add" onclick="addType()">+</div>
 		</div>
 		<div class="task-wrap">
 			<div class="status">
-				<ul class="clearfix">
-					<li>All</li>
-					<li>Done</li>
-					<li>Undone</li>
+				<ul class="statusul clearfix">
+					<li onclick="clickStatus(this)" class="choose">All</li>
+					<li onclick="clickStatus(this)">Done</li>
+					<li onclick="clickStatus(this)">Undone</li>
 				</ul>
 			</div>
 			<div class="task-list"></div>
-			<div id="add-task" class="add">+</div>
+			<div id="add-task" class="add" onclick="addTask()">+</div>
 		</div>
 		<div class="editor">
 			<div class="task-title">
@@ -33,8 +33,8 @@
 					Task name: 
 					<span></span>
 					<div class="set1">
-						<i class="i2 icon-ok"></i>
-						<i class="i2 icon-comment-empty"></i>
+						<i class="i2 icon-ok" onclick="complete()"></i>
+						<i class="i2 icon-comment-empty" onclick="edit()"></i>
 					</div>	
 				</div>
 				<div class="title-input">Task name: <input type="text" name="title" placeholder="Please input title"></div>
@@ -49,12 +49,35 @@
 					<textarea class="mytext" placeholder="Please input contents"></textarea>
 					<div class="error"></div>
 					<ul class="set2">
-						<li>Save</li>
-						<li>Cancel</li>
+						<li onclick="taskSave()">Save</li>
+						<li onclick="taskCancel()">Cancel</li>
 					</ul>
 				</div>
 			</div>
 		</div>
+	</div>
+	
+	<div class="cover hidden"></div>
+	<div class="popup hidden">
+		<div class="popup-head">
+			<div class="close">+</div>
+		</div>
+		<select id="type-select" required>
+			<option value="" disabled selected hidden>Type of category</option>
+			<option value="1">
+				Main category
+			</option>
+			<option value="2">
+				Child Catorgary
+			</option>
+		</select>
+		<div id="category-select-div"></div>
+		<input type="text" name="type-name" id="select1-input" placeholder="Please input the type name">
+		<div id="select1-error"></div>
+		<ul>
+			<li id="build1">Build</li>
+			<li id="cancel1">Cancel</li>
+		</ul>
 	</div>
 	<script type="text/javascript" src="js/gtd.js"></script>
 </body>
